@@ -1,7 +1,15 @@
-h1 {
-  font-family: "Noto Sans", sans-serif;
+:root {
+  --branding-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
 }
-p {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 400;
+
+.hero {
+  background-color: var(--branding-color);
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  padding: 75px 10px;
+}
+h1 {
+  font-size: 45px;
 }
