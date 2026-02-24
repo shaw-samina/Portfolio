@@ -13,3 +13,18 @@
 h1 {
   font-size: 45px;
 }
+h2 {
+  font-size: 23px;
+}
+.haiku {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  text-align: start;
+  margin-top: 35px;
+  background-color: #f9f7fe;
+}
+.samina-img {
+  border-color: 5px solid #f9f7fe;
+  padding: 0;
+  max-width: 100%;
+}
