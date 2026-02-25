@@ -23,8 +23,7 @@ h2 {
   margin-top: 35px;
   background-color: #f9f7fe;
 }
-.samina-img {
-  border-color: 5px solid #f9f7fe;
-  padding: 0;
+img {
   max-width: 100%;
+  border: 5px solid #847c96;
 }
