@@ -27,3 +27,16 @@ img {
   max-width: 100%;
   border: 5px solid #847c96;
 }
+.thank-you {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f9f7fe;
+}
+.btn {
+  border: 2px solid #847c96;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
