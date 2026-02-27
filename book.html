@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <meta name="book-massage" content="click-link-to-book" />
+    <title>Book your session</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -33,6 +34,28 @@
   </head>
   <body>
     <div class="hero">
+      <nav>
+        <div class="container">
+          <ul class="d-flex justify-content-between">
+            <li>
+              <a href="/" title="HomePage">Home</a>
+            </li>
+            <li>
+              <a href="/community.html" title="Community description"
+                >Community</a
+              >
+            </li>
+            <li>
+              <a href="/healing.html" title="Results and Testimonials"
+                >Healing</a
+              >
+            </li>
+            <li class="active">
+              <a href="/book.html" title="Book a session">Book</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <h1>Book your next session</h1>
     </div>
     <div class="booking-container text-center">
@@ -42,7 +65,11 @@
         continue to add value to my work, and I am always grateful.
       </p>
       <div class="p-4">
-        <img src="images/grateful.jpg" class="w-50 rounded-4" alt="" />
+        <img
+          src="images/grateful.jpg"
+          class="w-50 rounded-4"
+          alt="heart-hands"
+        />
       </div>
       <div>
         <button type="button" class="btn btn-light p-4 mt-5">
@@ -61,6 +88,16 @@
           >
         </button>
       </div>
+      <footer class="text-center m-5">
+        <div class="email-link">
+          <a href="mailto:info@villagebodywork.com">info@villagebodywork.com</a>
+        </div>
+        <div class="social-links mt-5">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i> </a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
